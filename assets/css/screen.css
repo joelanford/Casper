@@ -125,7 +125,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.0);
+    background: #fff no-repeat center center;
 }
 
 .site-header:after {
@@ -138,7 +138,7 @@ body {
     z-index: 10;
     display: block;
     height: 60px;
-    background: linear-gradient(rgba(0,0,0,.1),rgba(255,255,255,1));
+    background: #fff no-repeat center center;
 }
 
 .site-header.no-cover:before,
