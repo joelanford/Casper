@@ -151,9 +151,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
-    height: calc(100vh - 18px);
+    /* padding: 10vw 4vw; */
+    height: calc(100vh - 54px);
     text-align: center;
+    margin-bottom: 36px;
 }
 
 .page-header-content {
@@ -180,8 +181,7 @@ body {
 }
 
 .site-logo {
-    max-height: 256px;
-    max-width: 50%;
+    width: 24rem;
     margin-bottom: 2rem;
 }
 
@@ -196,13 +196,32 @@ body {
     opacity: 0.8;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px), (max-height: 500px) {
+    .site-logo {
+        width: 18rem;
+        margin-bottom: 1.5rem;
+    }
     .site-title {
         font-size: 3rem;
     }
     .site-description {
         font-size: 1.8rem;
     }
+}
+
+@media (max-height: 300px) {
+    .site-logo {
+        width: 12rem;
+        margin-bottom: 1rem;
+    }
+    .site-title {
+        display: none;
+        font-size: 2rem;
+    }
+    .site-description {
+        display: none;
+        font-size: 1.2rem;
+    }    
 }
 
 
@@ -1800,7 +1819,7 @@ Usage (In Ghost editor):
         line-height: 38px;
     }
     .site-header-content {
-        height: calc(100vh - 68px);
+        height: calc(100vh - 104px);
     }
     .site-logo {
         margin-top: 50px;
