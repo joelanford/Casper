@@ -2162,6 +2162,12 @@ form {
     width: 70%;
 }
 
+@media (max-width: 500px) {
+    form {
+        width: 95%;
+    }
+}
+
 input,
 textarea {
     width: 100%;
