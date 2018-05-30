@@ -2154,3 +2154,86 @@ Usage (In Ghost editor):
 .author-meta a.social-link {
     margin: 0rem 0.5rem;
 }
+
+/* 12. Forms
+/* ---------------------------------------------------------- */
+
+form {
+    width: 70%;
+}
+
+input,
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px color(var(--lightgrey) l(+10%)) solid;
+    padding: 7px;
+    margin: 5px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: color(var(--lightgrey) l(+17%));
+
+}
+
+::placeholder {
+    color: color(var(--lightgrey) l(-10%));
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: var(--lightgrey);
+}
+
+button {
+    color: color(var(--lightgrey) l(+15%));
+    border-radius: 5px;
+    padding: 5px;
+    margin: -5px 5px 5px 5px;
+    background-color: #0e78b3;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+/* 13. Alerts
+/* ---------------------------------------------------------- */
+
+/* The alert message box */
+.alert {
+    padding: 15px;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.alert-success {
+    background-color: #a5dfc7;
+    color: color(#a5dfc7 l(-50%));
+   
+}
+
+.alert-danger {
+    background-color: #ffd6d3;
+    color: color(#ffd6d3 l(-60%));
+}
+
+/* The close button */
+.btn-alert-close {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 2.2rem;
+    line-height: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.btn-alert-close:hover {
+    color: black;
+}
