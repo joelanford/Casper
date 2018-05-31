@@ -91,9 +91,9 @@ body {
 /* ---------------------------------------------------------- */
 
 @media (min-width: 901px) {
-    .home-template .post-feed,
-    .tag-template .post-feed,
-    .author-template .post-feed {
+    .home-template .post-feed:first-child,
+    .tag-template .post-feed:first-child,
+    .author-template .post-feed:first-child {
         margin-top: -50px;
         padding-top: 0;
     }
@@ -151,7 +151,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 10vw 4vw; */
     height: calc(100vh - 54px);
     text-align: center;
     margin-bottom: 36px;
@@ -418,6 +417,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 40px 0 0 0;
+}
+
+.post-feed:nth-child(2) {
+    padding-top: 0;
 }
 
 .post-card {
@@ -2188,7 +2191,7 @@ textarea {
 }
 
 :-ms-input-placeholder {
-    color: var(--lightgrey);
+    color: color(var(--lightgrey) l(-10%));
 }
 
 button {
