@@ -1,6 +1,6 @@
 # Minimus
 
-An update to the default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Minimus. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+An update to the default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Minimus. If you're just looking to download the latest release, head over to the [releases](https://github.com/joelanford/minimus/releases) page.
 
 &nbsp;
 
